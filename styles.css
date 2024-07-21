@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #003366; /* Deep Blue */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b0c4de; /* Silver */
+}
+
+main {
+    padding: 60px 20px;
+}
+
+.hero {
+    background: linear-gradient(to right, #004080, #003366); /* Deep Blue Gradient */
+    color: white;
+    padding: 80px 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hero h2 {
+    margin-top: 0;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0 0;
+}
+
+.features {
+    margin-top: 40px;
+}
+
+.features h3 {
+    text-align: center;
+    font-size: 2em;
+    color: #003366; /* Deep Blue */
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.features ul li {
+    background-color: #dcdcdc; /* Light Silver */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    flex: 1 1 calc(25% - 40px);
+    max-width: calc(25% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.features ul li:hover {
+    transform: translateY(-5px);
+}
+
+.login-form, .register-form, .timer {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 40px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form h2, .register-form h2, .timer h2 {
+    margin-top: 0;
+    color: #003366; /* Deep Blue */
+    font-size: 2em;
+    font-weight: 300;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1em;
+    color: #555;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    border-color: #003366; /* Deep Blue */
+    outline: none;
+}
+
+button {
+    background-color: #003366; /* Deep Blue */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #001a33; /* Darker Blue */
+    transform: translateY(-2px);
+}
+
+#timer-display {
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #003366; /* Deep Blue */
+    font-weight: 300;
+}
+
+footer {
+    background-color: #003366; /* Deep Blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification {
+    background-color: #ffcc80;
+    color: #003366; /* Deep Blue */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+.time-details {
+    margin: 20px 0
+}
